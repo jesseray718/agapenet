@@ -1,0 +1,68 @@
+[
+  {
+    "structure": "Metatron's Cube (Mutation)",
+    "nodes": 13,
+    "connections": 48,
+    "avg_flow": 15.3846,
+    "variance": 596.6469,
+    "std_dev": 24.4264,
+    "min_flow": 8.3333,
+    "max_flow": 100.0,
+    "equilibrium": "MUTATION"
+  },
+  {
+    "structure": "Vector Equilibrium (Balance)",
+    "nodes": 13,
+    "connections": 36,
+    "avg_flow": 15.3846,
+    "variance": 596.6469,
+    "std_dev": 24.4264,
+    "min_flow": 8.3333,
+    "max_flow": 100.0,
+    "equilibrium": "MUTATION"
+  },
+  {
+    "structure": "Isotropic Vector Matrix",
+    "nodes": 579,
+    "connections": 3696,
+    "avg_flow": 0.3776,
+    "variance": 18.5875,
+    "std_dev": 4.3113,
+    "min_flow": 0.0,
+    "max_flow": 100.0,
+    "equilibrium": "HIGH"
+  },
+  {
+    "structure": "64-Tetrahedron Grid Seed",
+    "nodes": 21,
+    "connections": 68,
+    "avg_flow": 9.5238,
+    "variance": 409.2971,
+    "std_dev": 20.2311,
+    "min_flow": 5.0,
+    "max_flow": 100.0,
+    "equilibrium": "MUTATION"
+  },
+  {
+    "structure": "Tesseract (4D Projection)",
+    "nodes": 16,
+    "connections": 32,
+    "avg_flow": 15.2588,
+    "variance": 563.6877,
+    "std_dev": 23.7421,
+    "min_flow": 0.3906,
+    "max_flow": 100.0,
+    "equilibrium": "MUTATION"
+  },
+  {
+    "structure": "Truncated Octahedron (Honeycomb)",
+    "nodes": 24,
+    "connections": 36,
+    "avg_flow": 11.8884,
+    "variance": 443.7098,
+    "std_dev": 21.0644,
+    "min_flow": 0.1372,
+    "max_flow": 100.0,
+    "equilibrium": "MUTATION"
+  }
+]
