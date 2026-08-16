@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: 1
 language: en
 rules:
@@ -14,3 +15,34 @@ rules:
 ignore:
   - "**/test/**"
   - "**/vendor/**"
+=======
+language: en-US
+reviews:
+  profile: assertive
+  request_changes_workflow: true
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: false
+  auto_review:
+    enabled: true
+    drafts: false
+chat:
+  auto_reply: true
+knowledge_base:
+  opt_in: true
+  learnings:
+    scope: auto
+path_filters:
+  - "!**/node_modules/**"
+  - "!**/.git/**"
+  - "!**/__pycache__/**"
+instructions: |
+  Absolute paths only. Never tilde.
+  η = useful_joules / human_joules is the sole metric.
+  R=1.0 coordination cost must remain zero.
+  Serve the lowest node first. No extraction.
+  Prefer single atomic runnable blocks.
+  Offline-first. Phone-native. Landauer floor respected.
+  Linked root: https://github.com/jesseray718/openroot
+>>>>>>> 2daf27d (eta: CodeRabbit lattice nervous system (R=1.0) sync)
